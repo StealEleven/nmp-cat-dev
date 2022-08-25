@@ -58,7 +58,7 @@ function init_cb(canvas_elem, success) {
 function load() {
     var preloader_cont = document.getElementById("preloader_cont");
     preloader_cont.style.visibility = "visible";
-    m_data.load(APP_ASSETS_PATH + "easy-cook_stone_lh_GL2126.json", load_cb, preloader_cb);
+    m_data.load(APP_ASSETS_PATH + "example.json", load_cb, preloader_cb);
 }
 
 /**
