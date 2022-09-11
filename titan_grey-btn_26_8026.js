@@ -25,6 +25,7 @@ exports.init = function() {
         callback: init_cb,
         show_fps: DEBUG,
         console_verbose: DEBUG,
+        canvas_resolution_factor: 2,
         autoresize: true
     });
 }
